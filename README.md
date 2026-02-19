@@ -76,8 +76,7 @@ In this project, I learned to **automate the deployment of Amazon S3 buckets** u
 
 ## 🏛️ System Architecture
 
-![system-architecture](https://github.com/user-attachments/assets/06c0a693-ca5d-4612-8a66-d13a3c64c184)
-
+<img width="2260" height="215" alt="architecture" src="https://github.com/user-attachments/assets/53a69ed2-94f8-48a5-aa5c-e18d9ff495ac" />
 
 ### 🔄 Workflow Breakdown
 
