@@ -30,7 +30,7 @@
 - [Introduction to Terraform](#-introduction-to-terraform)
 - [Configuration Files](#-configuration-files)
 - [Customizing S3 Buckets](#-customizing-s3-buckets)
-- [Terraform Commands](#-terraform-commands)
+- [Terraform Commands](#-Terraform-Commands)
 - [AWS CLI Setup](#-aws-cli-setup)
 - [Launching the S3 Bucket](#-launching-the-s3-bucket)
 - [Uploading S3 Objects](#-uploading-s3-objects)
@@ -76,36 +76,8 @@ In this project, I learned to **automate the deployment of Amazon S3 buckets** u
 
 ## 🏛️ System Architecture
 
-```mermaid
-flowchart LR
-	subgraph SETUP["🔧 SETUP"]
-		A[Install Terraform] --> B[Set up a Terraform project]
-		B --> C[Create main.tf]
-	end
-	
-	C --> D[Plan Terraform configuration]
-	
-	subgraph TROUBLESHOOTING["⚠️ TROUBLESHOOTING"]
-		E[Install AWS CLI]
-		F[Set up AWS Access Keys]
-		E --> F
-	end
-	
-	D --> TROUBLESHOOTING
-	F --> G[Apply Terraform configuration]
-	
-	subgraph OUTPUT["✅ OUTPUT"]
-		H[Launch an S3 bucket]
-	end
-	
-	G --> OUTPUT
-	
-	style SETUP fill:#e3f2fd,stroke:#1976d2,stroke-width:3px
-	style TROUBLESHOOTING fill:#ffebee,stroke:#c62828,stroke-width:3px
-	style OUTPUT fill:#e8f5e9,stroke:#388e3c,stroke-width:3px
-	style D fill:#fff3e0,stroke:#f57c00,stroke-width:2px
-	style G fill:#fff3e0,stroke:#f57c00,stroke-width:2px
-```
+![system-architecture](https://github.com/user-attachments/assets/06c0a693-ca5d-4612-8a66-d13a3c64c184)
+
 
 ### 🔄 Workflow Breakdown
 
